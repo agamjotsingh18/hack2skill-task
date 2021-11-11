@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    /* display: flex !important; */
+    /* justify-content: space-evenly !important; */
+}
+
+.nav-link{
+    padding: 0px !important;
+    color: black !important;
+    margin: 20px 0 !important;
+}
+.nav-link:active{
+    border-bottom: 3px solid black !important;
+}
+.nav-link:focus{
+    border-bottom: 3px solid black !important;
+}
+.nav-link:hover{
+    border-bottom: 3px solid black !important;
+}
+
+.nav-item{
+  margin: 0 20px !important;
+}
+
+.coffee-image{
+    background: url("/coffe-element-main-image.jpg") fixed no-repeat;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    height: 70vh;
+    /* background-attachment: fixed; */
+    /* height : 100%; */
+    overflow : hidden;
+    background-size: cover;
+
+}
+
+.coffee-text{
+    position: absolute;
+    top: 40%;
+    /* left: 50%; */
+    width: 100%;
+    height: 200px;
+    /* margin-left: -200px;
+    margin-top: -29px; */
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.custom-packages{
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.special{
+    background-color: rgb(206, 205, 205);
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.expect{
+    height: 700px;
+    text-align: center;
+    margin-top: 20px;
+}
+.expect-div{
+    display: flex;
+    /* flex-direction: column; */
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.cardss{
+    display: flex;
+
+}
+.card{
+    margin: 0 10px !important;
+}
+
+.c-buttons{
+    display: flex;
+}
+.expect-div{
+    display: flex;
+    
+}
+.list-div{
+    margin: 0px 90px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0 !important;
+}
+.eli p{
+    text-transform: none;
+}
+
+.eli:first-child:before{
+    content: " 1 ";
+    margin: 0 80px 20px 0;
+    padding: 12px;
+    border: 2px solid rgb(77, 76, 76);
+    border-radius: 50%;
+    color: black;
+    /* display: inline-block; */
+    left: -50%;
+    /* top: 40%; */
+    /* vertical-align: middle; */
+    position: relative;
+    /* text-align: center; */
+}
+
+.last{
+    background: url("/pexels-aleksandar-pasaric-1323712.jpg") fixed no-repeat;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    height: 40vh;
+    /* background-attachment: fixed; */
+    /* height : 100%; */
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow : hidden;
+    background-size: 100%;
+
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+    text-align: center;
+    display: block;
+}
+#iconss{
+    transition: transform 0.5s, filter .5s ease-out;
+}
+#iconss:hover{
+    cursor: pointer;
+    transform: scale(1.15); 
+}
+
+
+@media screen and (max-width: 720px) {
+    .coffee-text{
+        flex-wrap: wrap;
+      font-size: 20px;
+    }
+    .expect-div{
+        min-height: fit-content;
+        flex-wrap: wrap;
+    }
+    .expect-div img{
+        height: 200px !important;
+        margin: 0 !important;
+    }
+    .list-div{
+        margin: 10px !important;
+    }
+    .expect{
+        max-height: max-content;
+    }
+    .list-div{
+        margin-top: 10px !important;
+    }
+    .last{
+        background: url("/pexels-aleksandar-pasaric-1323712.jpg") fixed no-repeat;
+        height: 60vh;
+    }
+    .cardss{
+        flex-wrap: wrap;
+        /* margin-top: 20px !important; */
+        justify-content: center;
+    }
+    .card{
+        margin-bottom: 10px !important;
+    }
+  }
+
